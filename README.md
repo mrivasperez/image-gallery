@@ -4,7 +4,7 @@ an image gallery template
 ## About
 I created this image gallery template using vanilla JS and HTML5. It can be used in blogs, news websites, and personal photography portfolios. The uses are basically limitless!
 ## Screenshot
-![a screenshot](/assets/screenshot.png)
+![a screenshot](assets/screenshot.png)
 ## License 
 This is free and unencumbered software released into the public domain.
 
