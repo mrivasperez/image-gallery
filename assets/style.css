@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     margin: 20px;
     padding: 0;
     background: grey;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -14,10 +17,33 @@ body {
 .main-img img, 
 .imgs img {
     width: 100%;
+    border: 1px solid black;
 }
 
 .imgs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 4px;
+    cursor: pointer;
+}
+
+.imgs img:hover {
+    opacity: .65;
+}
+
+.imgs img {
+    border-radius: 2%;
+    height: 150px;
+    width: 170px;
+}
+
+h1,
+p {
+    padding: 20px 50px 20px 50px;
+}   
+
+h1 { 
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-decoration: underline;
 }
